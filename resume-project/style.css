@@ -1,0 +1,115 @@
+nav {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+body {
+	background-color: #292d2d;
+	color: white;
+	font-family:'Montserrat', sans-serif;
+	font-size: 18px
+}
+
+h1 {
+	background-color: #3f4545;
+	font-style: italic;
+	font-size: 40px;
+	color: #A02D49;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 10px;
+}
+
+.container {
+	margin: auto;
+	width: 100%;
+	max-width: 1440px;
+}
+
+.video {
+	width: 100%;
+	text-align: center;
+}
+
+.center {
+	margin-top: 20px;
+	text-align: left;
+}
+
+.skills {
+	list-style-type: square;
+	margin: 0;
+	padding: 0;
+	line-height: 1.75;
+	font-size: 20px;
+}
+
+.jobtitle { /*job titles*/
+		font-size: 1.5em; /*font change*/
+		font-weight: 600;
+	}
+	
+.organization { /*job orgs*/
+	font-size: 1.25em;
+	font-weight: 400;
+}
+
+.date { /*job dates*/
+	font-size: 1em;
+	font-style: italic;
+	font-weight: 400;
+	margin: 2px 0px 0px;
+}
+
+.line {
+	border: 1px solid #A02D49;
+	width: 63% !important;
+}
+
+.foto {
+	text-align: center;
+	font-style: italic;
+	font-size: 30px;
+}
+
+.subfoto {
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.footer {
+	background-color: #3f4545 !important;
+	text-align: center !important;
+}
+
+#header {
+	text-align: center;
+	display: block;
+	width: 100%;
+}
+
+#self {
+	text-align: center;
+	display: block;
+	margin: 30px auto;
+	width: 80%;
+}
+	
+@media screen and (max-width:1213px) {
+	.video{width: 100%;}
+}
+	
+@media screen and (min-width:770px) {
+	#self{min-width:80%;}
+}
+
+@media screen and (max-width:770px) {
+	#self{width:50%; max-width:80%;}
+}
