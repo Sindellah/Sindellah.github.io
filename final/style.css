@@ -1,0 +1,281 @@
+#container{
+	margin: auto;
+	width: 100%;
+	max-width: 1440px;
+}
+
+body{
+	background-color: #262C2D;
+	color: white;
+}
+
+#headline{
+	font-family: 'Courier Prime', monospace;
+	font-size: 3.5em;
+	font-style: italic;
+	font-weight:500;
+	text-align: left;
+}
+
+#subhead{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	font-weight:400;
+	text-align: left;
+}
+
+#byline{
+	font-family: 'Courier Prime', monospace;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.Ptitle{
+	font-family: 'Courier Prime', monospace;
+	font-size: 2em;
+	font-weight:500;
+}
+
+.image{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+.caption{
+	font-family: 'Open Sans', sans-serif;
+	font-size: .85em;
+	font-style: italic;
+	margin: auto;
+	text-align: right;
+}
+
+.footer{
+	background-color: #000000 !important;
+	color: white !important;
+	text-align: center !important;
+	font-family: 'Courier Prime', monospace !important;
+}
+
+#navlogo{
+	color: white;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+.line{
+	border: 1px solid #3F9E5C;
+	color: #E76F51;
+	width: 100% ;
+}
+
+.line2{
+	border: 1px solid #E76F51;
+	color: #90963e;
+	width: 25% ;
+}
+
+/*splash img*/
+.herocon{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.overlay{
+	position:absolute;
+	top:30%;
+	width:100%;
+}
+
+.heroimg{
+	width:100%;
+}
+
+.herohed{
+	font-family: 'Courier Prime', monospace;
+	font-size:8em;
+	color: #232B2F;
+	text-shadow: -7px -5px #f4A261, -14px -10px #E76F51;
+	margin: 0 auto;
+}
+
+.herosub{
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: none;
+	color: black;
+	font-size:.4em;
+	padding-top: 25px;
+	text-shadow: 2px 1px #f4A261, 4px 3px #E76F51;
+	}
+	
+#byline{
+	font-family: 'Courier Prime', monospace;
+	font-size: 1em;
+	font-style: italic;
+	text-align: left;
+	margin-top: 40px;
+}
+
+.quote{
+	color: #cf8f52;
+	font-family: 'Courier Prime', monospace;
+	font-size: 1.55em;
+	font-weight: 500;
+	text-align: Center;
+	margin:0 auto;
+	width: 85%;
+}
+
+.quoted{
+	color: #ffffff;
+	font-family: 'Courier Prime', monospace;
+	font-size: 16px !important;
+	font-style: italic;
+	font-weight: 400;
+	text-align: right;
+}
+
+.chapter{
+	font-family: 'Courier Prime', monospace;
+	color: #57d07b;
+	font-size: 2em;
+	font-weight: 500;
+}
+#chapter1{
+	font-family: 'Courier Prime', monospace;
+	color: #57d07b;
+	font-size: 2em;
+	font-weight: 500;
+}
+#chapter2{
+	font-family: 'Courier Prime', monospace;
+	color: #57d07b;
+	font-size: 2em;
+	font-weight: 500;
+}
+
+.credit{
+	font-family: 'Courier Prime', monospace;
+	font-size: 1em;
+	text-align: left;
+}
+
+.side{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 150%;
+	font-size: 1.1em;
+}
+
+.fa-cog {
+  color: #57d07b;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 150%;
+	font-size: 1.1em;
+	font-color: #ffffff;
+}
+
+a:link{
+	color:#cf8f52;
+	
+}
+
+a:visited{
+	color:#cf8f52;
+	
+}
+
+a:hover{
+	color:#cf8f52;
+	text-decoration:none;
+}
+
+@media(max-width:1335px){
+	p{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	
+	.herohed{
+		font-size:6em !important;
+		text-shadow: -5px -3px #f4A261, -10px -6px #E76F51;
+	}
+	
+	#vid{
+		height:480px;
+	}
+	
+	#longpic{
+		max-width: 500px;
+		max-height: 1900px;
+	}
+}
+@media(max-width:1285px){
+	#longpic{
+		max-width: 400px;
+		max-height: 1200px;
+		text-align: center;
+	}
+}
+@media(max-width:1134px){
+	#longpic{
+		max-width: 350px;
+		max-height: 1200px;
+		text-align: center;
+	}
+}
+@media(max-width:1000px){
+	.herohed{
+		font-size:4.5em !important;
+		margin-left:2px;
+		text-shadow: -3px -2px #f4A261, -6px -4px #E76F51;
+	}
+	
+	#vid{
+		height:360px;
+	}
+	#longpic{
+		max-width: 300px;
+		max-height: 1200px;
+		text-align: center;
+	}
+}
+@media(max-width:835px){
+	#longpic{
+		max-width: 275px;
+		max-height: 1200px;
+		text-align: center;
+	}
+}
+@media(max-width:770px){
+	.herohed{
+		font-size:3em !important;
+		margin-left:2px;
+		text-shadow: -3px -2px #f4A261, -6px -4px #E76F51;
+	}
+	
+	#vid{
+		height:240px;
+	}
+	
+	#longpic{
+		max-width: 275px;
+		max-height: 1200px;
+		text-align: center;
+	}
+}
+
+@media(max-width:768px){
+	#longpic{
+		max-width: 300px;
+		max-height: 1200px;
+		text-align: center;
+	}
+}
+
